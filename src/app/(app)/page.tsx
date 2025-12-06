@@ -71,7 +71,6 @@ export default function App() {
   const handleNav = (path:string) => {
     router.push(path);
     console.log(`Navigating to: ${path}`);
-    // In your actual Next.js app, use router.push(path)
   };
 
   return (
